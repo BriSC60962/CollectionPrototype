@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if (count >= 22)
+        if (count >= 23)
         {
             winTextObject.SetActive(true);
         }
