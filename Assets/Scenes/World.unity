@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5247,6 +5247,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &491968909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 1663022081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &491968910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491968909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65588454ba0171b48a5ca789a5d090cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  countText: {fileID: 1572193987}
+  winTextObject: {fileID: 1258142694}
 --- !u!1001 &493006844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5280,7 +5300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.87
+      value: 4.46
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10215,11 +10235,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.21
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -158.17
+      value: -155.38
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15154,7 +15174,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 3cac59369a4f99e48971b7d9251b90c5, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &917811709
 Terrain:
   m_ObjectHideFlags: 0
@@ -20025,7 +20045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.25
+      value: 0.81
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20151,7 +20171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.5
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20721,7 +20741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.66
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 5547748564435471140, guid: 66d57c1ab6cdade4d874f8d736311b52, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30617,6 +30637,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: useSprintBar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: hideBarWhenFull
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459864850019384740, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: unlimitedSprint
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}

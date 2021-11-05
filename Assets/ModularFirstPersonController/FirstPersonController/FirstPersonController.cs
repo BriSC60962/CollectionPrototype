@@ -8,8 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using UnityEngine.InputSystem;
+
 
 #if UNITY_EDITOR
     using UnityEditor;
@@ -18,10 +17,9 @@ using UnityEngine.InputSystem;
 
 public class FirstPersonController : MonoBehaviour
 {
-    public TextMeshProUGUI countText;
-    public GameObject winTextObject;
+    
     private Rigidbody rb;
-    private int count;
+    
     #region Camera Movement Variables
 
     public Camera playerCamera;
@@ -155,9 +153,7 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
-        count = 0;
-        SetCountText();
-        winTextObject.SetActive(false);
+        
         if (lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
@@ -370,14 +366,7 @@ public class FirstPersonController : MonoBehaviour
             HeadBob();
         }
     }
-    void SetCountText()
-    {
-        countText.text = "Count: " + count.ToString();
-        if (count >= 8)
-        {
-            winTextObject.SetActive(true);
-        }
-    }
+
 
     void FixedUpdate()
     {
@@ -455,18 +444,7 @@ public class FirstPersonController : MonoBehaviour
 
         #endregion
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("PickUp"))
-        {
-            other.gameObject.SetActive(false);
-            count = count + 1;
 
-            SetCountText();
-
-        }
-
-    }
     // Sets isGrounded based on a raycast sent straigth down from the player object
     private void CheckGround()
     {
