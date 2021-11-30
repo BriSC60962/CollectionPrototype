@@ -928,3 +928,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4022.810190 seconds.
+  path: Assets/SimpleCollectiblesPack/Materials/Collectibles 1.mat
+  artifactKey: Guid(9bee1ece51592f843996472527e9e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Materials/Collectibles 1.mat using Guid(9bee1ece51592f843996472527e9e1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e101c07f8ddea9b3d739fdcc2beea2f2') in 0.380393 seconds 
+  Import took 0.387817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/SimpleCollectiblesPack/Materials/Collectibles 2.mat
+  artifactKey: Guid(73b087a9bd7860f4ca4e130ae6cee2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Materials/Collectibles 2.mat using Guid(73b087a9bd7860f4ca4e130ae6cee2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd25132493cd88c84326313f31f30b7') in 0.021606 seconds 
+  Import took 0.029103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/SimpleCollectiblesPack/Materials/Collectibles 3.mat
+  artifactKey: Guid(0c2ab8410951b5042955598cca68a2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Materials/Collectibles 3.mat using Guid(0c2ab8410951b5042955598cca68a2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a139a8c033dade11836174bb0621aa') in 0.034373 seconds 
+  Import took 0.042923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752312 seconds.
+  path: Assets/SimpleCollectiblesPack/Models/CollectiblesSet1.fbx
+  artifactKey: Guid(e121965519da8964eb443caa891ca78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Models/CollectiblesSet1.fbx using Guid(e121965519da8964eb443caa891ca78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd62a5d291ba8ffb10c86f3473144aab') in 0.117901 seconds 
+  Import took 0.124495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/SimpleCollectiblesPack/Models/CollectiblesSet3.fbx
+  artifactKey: Guid(aa71617ef84e00e469c8384599d6395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Models/CollectiblesSet3.fbx using Guid(aa71617ef84e00e469c8384599d6395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279145043752e70aba37fe176a13c9f2') in 0.092999 seconds 
+  Import took 0.101011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/SimpleCollectiblesPack/Models/CollectiblesSet2.fbx
+  artifactKey: Guid(2fa528ee8e91e55468e2fa9820a7064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Models/CollectiblesSet2.fbx using Guid(2fa528ee8e91e55468e2fa9820a7064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a471d344bbd6bba3e36781c47c8e3c') in 0.091950 seconds 
+  Import took 0.098529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.915198 seconds.
+  path: Assets/SimpleCollectiblesPack/Textures/Collectibles 1.png
+  artifactKey: Guid(18caac7b76c3dc74ca374e998b3b6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Textures/Collectibles 1.png using Guid(18caac7b76c3dc74ca374e998b3b6da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3ac1c3728a52bd123648235986b9e9') in 0.027071 seconds 
+  Import took 0.034645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/SimpleCollectiblesPack/Textures/Collectibles 2.png
+  artifactKey: Guid(c9ebb98756390544ca89206fd4b3023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Textures/Collectibles 2.png using Guid(c9ebb98756390544ca89206fd4b3023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff3cef4774b4c69ec0aad157e5d1138') in 0.011937 seconds 
+  Import took 0.019120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/SimpleCollectiblesPack/Textures/Collectibles 3.png
+  artifactKey: Guid(663c9e8f8135f9f49901eec607cca177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Textures/Collectibles 3.png using Guid(663c9e8f8135f9f49901eec607cca177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b5c95dca4d1b2a26f2f07da93b9e5e') in 0.023889 seconds 
+  Import took 0.031232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/SimpleCollectiblesPack/Textures/Collectibles 2.png
+  artifactKey: Guid(c9ebb98756390544ca89206fd4b3023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Textures/Collectibles 2.png using Guid(c9ebb98756390544ca89206fd4b3023c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff3cef4774b4c69ec0aad157e5d1138') in 0.018664 seconds 
+  Import took 0.025579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/SimpleCollectiblesPack/Textures/Collectibles 3.png
+  artifactKey: Guid(663c9e8f8135f9f49901eec607cca177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Textures/Collectibles 3.png using Guid(663c9e8f8135f9f49901eec607cca177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b5c95dca4d1b2a26f2f07da93b9e5e') in 0.020643 seconds 
+  Import took 0.026980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SimpleCollectiblesPack/Textures/CollectibleSwordShield.png
+  artifactKey: Guid(72733fa0130149a4f82e063f5b977084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Textures/CollectibleSwordShield.png using Guid(72733fa0130149a4f82e063f5b977084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9129178c2183f45130ef797dfb08a7') in 0.029168 seconds 
+  Import took 0.037774 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1116ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (592ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.5 MB.
+System memory in use after: 119.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2848.
+Total: 3.042800 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.098400 ms MarkObjects: 2.437500 ms  DeleteObjects: 0.281300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
