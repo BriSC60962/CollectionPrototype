@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if (count >= 7)
+        if (count >= 6)
         {
             winTextObject.SetActive(true);
         }
@@ -51,6 +51,10 @@ public class PlayerController : MonoBehaviour
 
             SetCountText();
 
+        }
+        else if (other.gameObject.CompareTag("KeyGold"))
+        {
+            other.gameObject.SetActive(false);
         }
 
     }
